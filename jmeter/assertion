@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1615529078598,181,HTTP Request,200,OK,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : 200[[[ ]]]
+
+****** comparison: 200[[[
+]]]
+
+/",142277,238,1,1,https://www.facebook.com/,46,0,17
+1615529078598,46,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,607,117,1,1,https://facebook.com/,46,0,17
+1615529078644,135,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,141670,121,1,1,https://www.facebook.com/,132,0,11
